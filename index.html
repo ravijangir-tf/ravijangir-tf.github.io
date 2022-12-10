@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/utilities.css">
+    <title>Welcome to EdgeLedger</title>
+</head>
+<body>
+    <header class="hero">
+        <div id="navbar" class="navbar top">
+            <h1 class="logo">
+                <span class="primary-text"><i class="fas fa-book-open"></i> Edge</span>Ledger
+            </h1>
+            <nav>
+                <ul>
+                    <li><a class="current" href="#">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="#">Cases</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1>The Sky Is The Limit</h1>
+            <p>We provide world class assistance</p>
+            <button class="primary-button">> Read More</button>
+        </div>
+    </header>
+    <!-- Sections -->
+    <main>
+        <section id="about">
+            <div class="flex-items">
+                <div class="box">
+                    <i class="fas fa-university fa-2x"></i>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, deleniti?</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <div>
+                        <h3>Portfolio Manager</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, deleniti?</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div>
+                        <h3>Tax & Custodial</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, deleniti?</p>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- For the sections -->
+        <section class="flex-columns">
+            <div class="content left">
+                <img src="/image/home/people.jpg" alt="">
+            </div>
+            <div class="content right">
+                <h4>What are you looking for</h4>
+                <h2>We provide bespoke solutions</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illo dolorem error mollitia modi in expedita aspernatur fugit distinctio eaque.</p>
+                <button class="secondary-button">> Read More</button>
+            </div>
+        </section>
+        <!-- Cases -->
+        <!-- <section id="cases">
+            <header class="info">
+                <h4>This is what we</h4>
+                <h1>Business Class</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, cumque?</p>
+            </header>
+            <div class="row">
+                    <div class="column column-1">
+                        <img src="/image/cases/cases1.jpg" alt="">
+                        <img src="/image/cases/cases2.jpg" alt="">
+                        <img src="/image/cases/cases3.jpg" alt="">
+                        <img src="/image/cases/cases4.jpg" alt="">
+                    </div>
+                    <div class="column column-">
+                        <img src="/image/cases/cases5.jpg" alt="">
+                        <img src="/image/cases/cases6.jpg" alt="">
+                        <img src="/image/cases/cases7.jpg" alt="">
+                        <img src="/image/cases/cases8.jpg" alt="">
+                    </div> -->
+            </div>
+        </section> -->
+
+        <!-- Meet the team -->
+        <section class="team">
+            <div class="new-flex">
+                <div class="person person-1">
+                    <img src="/image/team/person1.jpg" alt="">
+                    <h4>Name</h4>
+                    <p>Description</p>
+                </div>
+                <div class="person person-2">
+                    <img src="/image/team/person2.jpg" alt="">
+                    <h4>Name</h4>
+                    <p>Description</p>
+                </div>
+                <div class="person person-3">
+                    <img src="/image/team/person3.jpg" alt="">
+                    <h4>Name</h4>
+                    <p>Description</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="sign">
+            <p>Copyright &copy; 2020 - EdgeLedger</p>
+        </div>
+    </footer>
+    
+    <script>
+        const navbar = document.getElementById('navbar');
+
+        window.onscroll = function() {
+            if(window.pageYOffset > 100){
+                navbar.classList.remove('top');
+            } else {
+                 navbar.classList.add('top');
+            }
+        }
+    </script>
+
+</body>
+</html>
